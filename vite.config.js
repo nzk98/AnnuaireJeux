@@ -19,7 +19,7 @@ export default defineConfig({
       short_name: 'Jeux',  //nom court pourl'écran daccueil
       description: 'Application de recherche de jeux video',
       theme_color: '#ffffff',  //couleur du theme
-      start_url: '/',  //page de demarrage
+      start_url: 'https://nzk98.github.io/AnnuaireJeux/',  //page de demarrage
       display: 'standalone',  //Mode d'affichage
       background_color: '#ffffff',  //couleur de fond au démarrage
 
