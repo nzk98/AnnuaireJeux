@@ -81,7 +81,7 @@ useEffect( ()=>{
 // },[])
 
 //État pourgérer l'affichage du bouton d'installation
-const [canInstall, setInstall] = useState(false);
+const [canInstall, setCanInstall] = useState(false);
 //Ref pour stocker l'événement d'installation
 const deferredPrompt = useRef(null);
 
@@ -124,7 +124,7 @@ const handleInstallClick = async () => {
       {canInstall && (
         <div className='bg-gray-300 shadow-gray-700 p-4 flex items-center'>
           <div className='flex-grow text-center'>
-            <p>Voulez-vous installer l'application sur votre appareil ? </p>
+            Voulez-vous installer l'application sur votre appareil ? 
           </div>
           <button className='px-4 py-2 rounded text-white bg-teal-600' onClick={handleInstallClick}>Installer</button>
         </div>
